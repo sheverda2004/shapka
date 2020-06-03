@@ -1,0 +1,117 @@
+#pka {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  left: 0px;
+  height: 100px;
+  top: 0px;
+}
+
+#ele {
+  position: absolute;
+  top: 40px;
+  width: 600px;
+  height: 60px;
+  right: 5%;
+
+
+}
+
+a {
+  
+  text-decoration: none;
+  color: #fff;
+
+}
+.ho {
+  
+  position: absolute;
+  left: 20px;
+  font-size: 2em;
+  top: 10px;
+  height: 45px;
+
+}
+
+.ho:hover {
+   
+   transition: 0.2s border-bottom;
+   border-bottom: 5px solid #F15A25;
+
+
+}
+.ne {
+ 
+  position: absolute;
+  left: 120px;
+  font-size: 2em;
+  top: 10px;
+  height: 45px;
+
+}
+
+.ne:hover {
+  
+   border-bottom: 5px solid #F15A25;
+   transition: 0.2s border-bottom ease;
+
+
+}
+.mu {
+ 
+  position: absolute;
+  left: 220px;
+  font-size: 2em;
+  top: 10px;
+  height: 45px;
+
+}
+
+.mu:hover {
+  
+   border-bottom: 5px solid #F15A25;
+   transition: 0.2s border-bottom ease;
+
+
+}
+.you {
+ 
+  position: absolute;
+  left: 325px;
+  font-size: 2em;
+  top: 10px;
+  height: 45px;
+
+}
+
+.you:hover {
+  
+   border-bottom: 5px solid #F15A25;
+   transition: 0.2s border-bottom ease;
+
+
+}
+@media screen and (max-width: 700px) {
+
+
+   #ele {
+
+    
+    left: -1%;
+
+   }
+}
+#pho {
+
+	position: absolute;
+	left: 3%;
+}
+
+@media screen and (max-width: 1150px) {
+
+  #pho {
+
+  	  display: none;
+  }
+}
+
